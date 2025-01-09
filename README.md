@@ -1,2 +1,2 @@
 # Technical-test-answers-
-software software development development. developer.
+software development. developer.
