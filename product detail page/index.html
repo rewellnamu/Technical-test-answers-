@@ -1,81 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>landcruiser</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<main class="container" style="background-color: teal;">
- 
-    <div class="left-column">
-      <img data-image="black" src="toyota76 series.png" alt="">
-      <img data-image="blue" src="toyota76 series.png" alt="">
-      <img data-image="red" class="active" src="toyota76 series.png" alt="" style="border-radius: 450px;">
-    </div>
-   
-   
-    
-    <div class="right-column">
-   
-      
-      <div class="product-description">
-        <span style="font-size: larger;">TOYOTA</span>
-        <h1>landcruiser 76series</h1>
-        <span style="color: red; font-size: larger; margin-left: 50px;">5,0000,000 ksh</span>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container" style="background-color: teal">
+      <div class="left-column">
+        <img data-image="black" src="toyota76 series.png" alt="" />
+        <img data-image="blue" src="toyota76 series.png" alt="" />
+        <img
+          data-image="red"
+          class="active"
+          src="toyota76 series.png"
+          alt=""
+          style="border-radius: 450px"
+        />
       </div>
-      <div>
-        <button type="button" style="color: white; background-color: blue;">Description</button>
-        <button type="button" style="color: white; background-color: blue;">Details</button>
-        <button type="button" style="color: white; background-color: blue;">Reviews</button>
-        <button type="button" style="color: white; background-color: blue;">Size & Fit</button>
-        <p>Since 1959, the indestructible Land Cruiser didn’t let anything stand on their way. A comfort while driving is ensured on one hand with their robust chassis that offers a solid foundation for responsive control. On the other hand, with their optimized suspension which allows a high load capacity and unprecedented off-road capabilities. Safety remains the top priority of the Land Cruiser 70, which is designed with a solid body, integrated airbags and large windows for full visibility. As powerful as it is adventurous, you can easily tackle the most difficult terrain aboard the legendary African 4x4.
-        </p>
-      </div>
-   
-    
-      <div class="product-configuration">
-   
-        
-        <div class="product-color">
-          <span>Color</span>
-   
-          <div class="color-choose">
-            <div>
-              <input data-image="red" type="radio" id="red" name="color" value="red" checked>
-              <label for="red"><span></span></label>
-            </div>
-            <div>
-              <input data-image="blue" type="radio" id="blue" name="color" value="blue">
-              <label for="blue"><span></span></label>
-            </div>
-            <div>
-              <input data-image="black" type="radio" id="black" name="color" value="black">
-              <label for="black"><span></span></label>
-            </div>
-            <div>
-                <input data-image="brown" type="radio" id="brown" name="color" value="brown">
+
+      <div class="right-column">
+        <div class="product-description">
+          <span style="font-size: larger">TOYOTA</span>
+          <h1>landcruiser 76series</h1>
+          <span style="color: red; font-size: larger; margin-left: 50px"
+            >5,000,000 KSH</span
+          >
+        </div>
+        <div>
+          <button type="button" style="color: white; background-color: blue">
+            Description
+          </button>
+          <button type="button" style="color: white; background-color: blue">
+            Details
+          </button>
+          <button type="button" style="color: white; background-color: blue">
+            Reviews
+          </button>
+          <button type="button" style="color: white; background-color: blue">
+            Size & Fit
+          </button>
+          <p>
+            Since 1959, the indestructible Land Cruiser didn’t let anything
+            stand on their way. A comfort while driving is ensured on one hand
+            with their robust chassis that offers a solid foundation.
+          </p>
+        </div>
+
+        <div class="product-configuration">
+          <div class="product-color">
+            <span>Color</span>
+            <div class="color-choose">
+              <div>
+                <input
+                  data-image="red"
+                  type="radio"
+                  id="red"
+                  name="color"
+                  value="red"
+                  checked
+                />
+                <label for="red"><span></span></label>
+              </div>
+              <div>
+                <input
+                  data-image="blue"
+                  type="radio"
+                  id="blue"
+                  name="color"
+                  value="blue"
+                />
+                <label for="blue"><span></span></label>
+              </div>
+              <div>
+                <input
+                  data-image="black"
+                  type="radio"
+                  id="black"
+                  name="color"
+                  value="black"
+                />
+                <label for="black"><span></span></label>
+              </div>
+              <div>
+                <input
+                  data-image="brown"
+                  type="radio"
+                  id="brown"
+                  name="color"
+                  value="brown"
+                />
                 <label for="brown"><span></span></label>
               </div>
+            </div>
           </div>
-   
-        </div>
-   
-        <div class="quantity buttons_added">
-            <input id="minus" type="button" class="minus" value="-">
-            <input id="theInput" type="number" size="4" class="input-text qty text" title="Qty" value="1" min="0" step="1">
-            <input id="plus" type="button" class="plus" value="+">
-          </div>
-        
-   
-    
-      <div class="product-price">
-        <a href="#" class="cart-btn" style="margin-top: 20px;">Add to cart</a>
-        <a href="#" class="cart-btn" style="margin-left: 20px; margin-top: 20px;">Wish list</a>
 
+          <div class="quantity buttons_added">
+            <input id="minus" type="button" class="minus" value="-" />
+            <input
+              id="theInput"
+              type="number"
+              size="4"
+              class="input-text qty text"
+              title="Qty"
+              value="1"
+              min="0"
+              step="1"
+            />
+            <input id="plus" type="button" class="plus" value="+" />
+          </div>
+
+          <div class="product-price">
+            <a href="#" class="cart-btn" style="margin-top: 20px"
+              >Add to cart</a
+            >
+            <a
+              href="#"
+              class="cart-btn"
+              style="margin-left: 20px; margin-top: 20px"
+              >Wish list</a
+            >
+          </div>
+        </div>
       </div>
-    </div>
-  </main>
-</body>
+    </main>
+  </body>
 </html>
