@@ -16,6 +16,8 @@ for fizzbuzz in range(51):
         print("buzz")
         continue
     # If the number is neither divisible by 3 nor 5, print the number itself
-    print(fizzbuzz) 
+    print(fizzbuzz)
+
+# Reverse a string
 def my_function(x):
-  return x[::-1]
+    return x[::-1]
